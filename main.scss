@@ -1,0 +1,14 @@
+body {
+  background-color: blanchedalmond;
+}
+.title {
+  color: teal;
+}
+#app ul {
+  list-style: none;
+  padding-inline-start: 0;
+  
+  & li > span.done {
+    text-decoration: line-through cornflowerblue;
+  }
+}
